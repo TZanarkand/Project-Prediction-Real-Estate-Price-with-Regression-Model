@@ -5,7 +5,7 @@
 ### สามารถดู Slide Presentation ได้จาก Link: https://www.canva.com/design/DAGQPVPnx-8/OKOX6MfLHC31zYjEb15Ifw/edit?utm_content=DAGQPVPnx-8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 สรุปผล: 
-จากการ Train Model Regression โดยจะเปรียบเทียบโมเดลระหว่าง Linear Regression และ Ridge Regression ซึ่งเราจะสรุปผลจากค่า RMSE และค่า R-squared ที่ดีที่สุด โดยจะสรุปได้ว่า Ridge Regression ที่มีการจูนค่า alpha = 100 ให้ผลลัพธ์ที่ดีที่สุด
+จากการ Train Model Regression โดยจะเปรียบเทียบโมเดลระหว่าง Linear Regression และ Ridge Regression ซึ่งเราจะสรุปผลจากค่า RMSE และค่า R-squared ที่ดีที่สุด และทำการแปลงให้ Linear Regression กลายเป็น Polynomial Regression ที่ Degree 2, 3 โดยจะสรุปได้ว่า Polynomial Regression Degree 2 ให้ผลลัพธ์ที่ดีที่สุด โดย concept สั้นๆ ของโมเดลตัวนี้ก็คือ โดยปกติเส้น Forecast ของ lm model จะเป็นเส้นตรง ซึ่งมันอาจจะไม่ดีถ้าหากเจอค่า outlier จึงทำการใช้โมเดลตัวนี้ทำให้เส้น Forecast เกิดการโค้งงอได้ จะไม่ใช่เส้นทำนายที่เป็นเส้นตรงอย่างเดียวแล้ว
 
 ****************************************************
 
